@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+}
+section {
+  padding: 20px;
+  height: 50vh;
+}
+
+section:last-of-type {
+  flex: 1;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media all and (min-width: 486px) {
+  .rrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}

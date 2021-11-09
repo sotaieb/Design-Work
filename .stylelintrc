@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-scss"],
+  "rules": {
+    "declaration-property-value-disallowed-list": {
+      "border": "none",
+      "outline": "none"
+    },
+    "function-disallowed-list": ["calc", "lighten", "darken"],
+    "property-disallowed-list": []
+  }
+}

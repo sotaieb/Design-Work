@@ -1,0 +1,39 @@
+h1 {
+  @extend h1!optional;
+  @extend .font-title!optional;
+  font-size: $font-size-title;
+  font-weight: $font-weight-title;
+}
+
+h2 {
+  @extend h2!optional;
+  @extend .font-title!optional;
+  font-size: $font-size-subtitle;
+  color: $primary-color-gray;
+}
+
+h3 {
+  @extend h3!optional;
+  @extend .font-title!optional;
+
+  font-size: $font-size-subtitle;
+  color: $color-green;
+}
+h4 {
+  @extend h1!optional;
+  @extend .font-title!optional;
+  font-size: $font-size-title;
+  font-weight: $font-weight-title;
+  color: $bg-active-color;
+  text-align: center;
+  padding: 10px;
+}
+
+.font-title {
+  font-family: $font-family-body;
+  font-weight: $font-weight-title;
+}
+
+p {
+  color: $primary-color-gray;
+}
